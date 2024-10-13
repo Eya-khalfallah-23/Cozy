@@ -9,7 +9,9 @@ const HomePage = () => {
         <div>
             <FistPart />
             <PopularCategoriesSection />
+            <div className="h-[20px] w-full bg-gradient-to-b from-custom-light to-custom-dark"></div>
             <TrendingProductsSection />
+            <div className="h-[20px] w-full bg-gradient-to-b from-custom-dark to-custom-light"></div>
             <ContactUsSection />
         </ div>
 
