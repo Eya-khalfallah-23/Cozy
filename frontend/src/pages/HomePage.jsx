@@ -1,14 +1,18 @@
+import ContactUsSection from "../components/Home/ContactUsSection";
 import FistPart from "../components/Home/FirstPart";
-import SecondPart from "../components/Home/SecondPart";
+import PopularCategoriesSection from "../components/Home/PopularCategoriesSection";
+import TrendingProductsSection from "../components/Home/TrendingProductsSection";
 
 const HomePage = () => {
     return (
-        
+
         <div>
             <FistPart />
-            <SecondPart />
+            <PopularCategoriesSection />
+            <TrendingProductsSection />
+            <ContactUsSection />
         </ div>
-         
+
     );
 };
 export default HomePage;
