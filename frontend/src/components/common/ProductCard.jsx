@@ -5,7 +5,7 @@ import { faHeart as faHeartRegular } from '@fortawesome/free-regular-svg-icons';
 
 const ProductCard = ({ image, productName, productCategory, price }) => {
     return (
-        <div className="relative flex flex-col items-center w-[280px] h-[350px] rounded-lg bg-white shadow-custom">
+        <div className="relative flex flex-col items-center w-[280px] h-[350px] rounded-lg bg-beige bg-opacity-90 shadow-custom">
           <FontAwesomeIcon 
             icon={faHeartRegular} 
             color="gray" 

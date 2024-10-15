@@ -1,4 +1,4 @@
-import Trend1 from '../../assets/6.jpg';
+import Trend1 from '../../assets/6.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import ProductCard from '../common/ProductCard';
